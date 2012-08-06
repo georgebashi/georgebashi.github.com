@@ -76,6 +76,11 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
+footer { color: #777; }
+footer a { color: #6BA2FA; }
+footer a:visited { color: #7366FF; }
+footer a:hover { color: #66A8FF; }
+
 @media only screen and (min-width: 480px) {
 body{font-size:14px;}
 }

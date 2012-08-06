@@ -11,10 +11,33 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-    <link rel="stylesheet" href="css/markdown.min.css">
+    <link rel="stylesheet" href="css/markdown.css">
 </head>
+
 <body>
+    <header>
+        <h1>George Bashi</h1>
+    </header>
+
+    <hr />
+
     {{ content }}
+
+    <hr />
+
+    <footer>
+        <p>
+            George Bashi<br />
+            Dev Team Lead, <a href='http://www.semantico.com'>Semantico</a><br />
+            <a href='mailto:george@bashi.co.uk'>george@bashi.co.uk</a>
+        </p>
+
+        <p>
+            <a href='https://github.com/georgebashi'>github.com/georgebashi</a><br />
+            <a href='https://twitter.com/georgebashi'>twitter.com/georgebashi</a>
+        </p>
+    </footer>
+
     <script>
         var _gaq=[['_setAccount','UA-79304-5'],['_trackPageview']];
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
