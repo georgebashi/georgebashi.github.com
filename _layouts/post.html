@@ -14,23 +14,20 @@
     <link rel="stylesheet" href="css/markdown.css">
 </head>
 
-<body>
-    <header>
-        <h1>George Bashi</h1>
-    </header>
+<body itemscope itemtype="http://schema.org/Person">
+    <h1 itemprop="name">George Bashi</h1>
 
     {{ content }}
 
-    <footer itemscope itemtype="http://schema.org/Person">
+    <footer>
         <p>
-            <span itemprop="name">George Bashi</span><br />
             <a href='mailto:george@bashi.co.uk' itemprop="email">george@bashi.co.uk</a>
         </p>
 
         <p>
             <span itemprop="jobTitle">Engineering Manager</span>,
             <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href='http://www.yelp.com/' itemprop="url"><span itemprop="name">Yelp</span></a></span><br />
-	    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">San Francisco</span>, <span itemprop="addressRegion">CA</span></span>
+            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">San Francisco</span>, <span itemprop="addressRegion">CA</span></span>
         </p>
 
         <p>
