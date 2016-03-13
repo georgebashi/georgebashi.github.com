@@ -1,20 +1,20 @@
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100%;}
 
 body{
-color:#444;
+color:#fff;
 font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 font-size:12px;
 line-height:1.5em;
 padding:1em;
 margin:auto;
 max-width:42em;
-background:#fefefe;
+background:#000 url(/g.jpg) no-repeat top left / cover;
 }
 
-a{ color: #0645ad; text-decoration:none;}
-a:visited{ color: #0b0080; }
-a:hover{ color: #06e; }
-a:active{ color:#faa700; }
+a{ color: #fff; text-decoration:none;}
+a:visited{ color: #fff; }
+a:hover{ color: #fff; }
+a:active{ color:#fff; }
 a:focus{ outline: thin dotted; }
 a:hover, a:active{ outline: 0; }
 
@@ -34,7 +34,7 @@ max-width:100%;
 
 h1,h2,h3,h4,h5,h6{
 font-weight:normal;
-color:#111;
+color:#fff;
 line-height:1em;
 }
 h4,h5,h6{ font-weight: bold; }
@@ -76,10 +76,7 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
-footer { color: #777; }
-footer a { color: #6BA2FA; }
-footer a:visited { color: #7366FF; }
-footer a:hover { color: #66A8FF; }
+footer { color: #fff; }
 
 @media only screen and (min-width: 480px) {
 body{font-size:14px;}
